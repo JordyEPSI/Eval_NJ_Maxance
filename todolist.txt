@@ -1,0 +1,6 @@
+Faire un git init,
+ensuite git add
+git checkout -b jordy
+touch todolist.txt
+git commit -m "Jsp"
+git push origin 

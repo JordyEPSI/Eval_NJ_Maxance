@@ -3,10 +3,13 @@ Jordy et Nico
 23/10/2025
 Journal de commande = McDo
 git clone
-git branch Nico pour l'un et l'autre git branch jordy
+git checkout -b Nico
+git checkout -b jordy
 touch presentation.txt
 touch todolist.txt
-git gommit -m "ajout des fichiers"
+nano presentation.txt
+nano todolist.txt
+git commit -m "ajout des fichiers"
 git push origin main
 git merge origin main
-cat fichier.txt pour voir les modif
+cat presentation.txt pour voir les modif
